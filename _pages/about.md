@@ -23,15 +23,15 @@ $$
   \max_{\pi \in \Pi}\ \rho\!\left(R^{\pi}\right),
 $$
 
-where $R^{\pi} = \sum_{t=0}^{\infty} \gamma^{t} r_t$ is the random return under policy $\pi$, and $\rho$ is a risk measure capturing risk preferences.
+where $R$ is the random return under policy $\pi$, and $\rho$ is a risk measure capturing risk preferences.
 
 This problem is well understood in the known-model setting for a broad class of risk measures. In the learning setting, where the dynamics are unknown, there are very few results with finite-time guarantees. During my internship, we focused on the entropic risk measure for its simplicity and regularity, and on finite-horizon episodic MDPs. We established information-theoretic lower bounds on the sample complexity of identifying an $\varepsilon$-optimal policy with probability at least $1-\delta$ (i.e., finding $\pi$ such that $\rho(R^\pi) \ge \rho(R^{\pi^\star}) - \varepsilon$ with probability $\ge 1-\delta$). We then proposed a Kullback--Leibler (KL)-driven exploration approach that narrows the gap to these lower bounds.
 
 This line of work is ongoing, with a manuscript in preparation and a planned submission to COLT~2026.
 
-Here's my master report : [Master’s Report (PDF)]({{ '/files/masters_report.pdf' | relative_url }})
+Here's my master report : [Master’s Report (PDF)]({{ '/files/MVA report.pdf' | relative_url }})
 
-<a href="{{ '/files/masters_report.pdf' | relative_url }}" target="_blank" rel="noopener">
+<a href="{{ '/files/MVA report.pdf' | relative_url }}" target="_blank" rel="noopener">
   Master’s Report (PDF)
 </a>
 
