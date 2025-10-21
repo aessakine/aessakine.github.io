@@ -17,8 +17,16 @@ I did multiple research internships in diverse fields of machine learning. I am 
 
 Internship about risk-sensitive reinforcement learning
 ======
-At the Tübingen AI Center under the supervision of Prof. Claire Vernade, I worked on risk-sensitive reinforcement learning. The problem can be formulated as maximizing the reward distribution under an utility function called the risk measure 
-$$\max_{\pi} \rho(R^\pi)$$
+At the T\"ubingen AI Center, under the supervision of Prof.~Claire Vernade, I worked on \textbf{risk-sensitive reinforcement learning}. We formulate policy selection as choosing a policy \(\pi \in \Pi\) that maximizes a risk measure applied to the return distribution:
+\[
+  \max_{\pi \in \Pi}\ \rho\!\left(R^{\pi}\right),
+\]
+where \(R^{\pi} = \sum_{t=0}^{\infty} \gamma^{t} r_t\) is the random return under policy \(\pi\), and \(\rho\) is a risk measure capturing risk preferences.
+
+This problem is well understood in the known-model setting for a broad class of risk measures. In the learning setting, where the dynamics are unknown, there are very few results with finite-time guarantees. During my internship, we focused on the \emph{entropic} risk measure for its simplicity and regularity, and on finite-horizon episodic MDPs. We established information-theoretic lower bounds on the sample complexity of identifying an $\varepsilon$-optimal policy with probability at least $1-\delta$ (i.e., finding $\pi$ such that $\rho(R^\pi) \ge \rho(R^{\pi^\star}) - \varepsilon$ with probability $\ge 1-\delta$). We then proposed a Kullback--Leibler (KL)-driven exploration approach that narrows the gap to these lower bounds.
+
+This line of work is ongoing, with a manuscript in preparation and a planned submission to COLT~2026.
+
 
 Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
