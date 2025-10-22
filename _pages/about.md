@@ -17,12 +17,26 @@ I did multiple research internships in diverse fields of machine learning. I am 
 
 Internship about risk-sensitive reinforcement learning
 ======
-I conducted a research internship with Prof. Claire Vernade at the Tübingen AI Center on risk-sensitive reinforcement learning. My work addressed best-policy identification for the entropic risk measure, where I derived lower bounds and proposed a Kullback–Leibler–driven exploration algorithm to tighten them.
+During my MVA master, I conducted a research internship under the supervision Prof. Claire Vernade at the Tübingen AI Center on risk-sensitive reinforcement learning. My work addressed best-policy identification for the entropic risk measure, where I derived lower bounds and proposed a Kullback–Leibler–driven exploration algorithm to tighten them.
 
 This line of work is ongoing, with a manuscript in preparation and a planned submission to COLT 2026.
 
 Here's my master report: [Master’s Report (PDF)]({{ '/files/MVA report.pdf' | relative_url }}) and my master presentation: [Master’s presentation (PDF)]({{ '/files/MVA presentation.pdf' | relative_url }})
 
+Internship about Implicit Neural representation
+======
+At the University of Cambridge, I undertook a research internship under the supervision of Dr. Angelica Aviles-Rivero. I led a comprehensive review and benchmark of various approaches to implicit neural representations, detailing their mathematical properties and underlying motivations. This work resulted in the survey “Where Do We Stand with Implicit Neural Representations? A Technical and Performance Survey,” which was accepted at TMLR.
+
+As a side note, based on a link between an existing method and sampling theory, I introduced WIREN (Walsh Implicit Neural Network), which generalizes the approach by using the inverse Fourier transform of Walsh functions as the activation function, improving the accuracy on tasks like CT reconstruction.
+
+Here's the TMLR article [Master’s Report (PDF)](https://arxiv.org/pdf/2411.03688), my master report: [Master’s Report (PDF)]({{ '/files/M1 report.pdf' | relative_url }}) and my master presentation: [Master’s presentation (PDF)]({{ '/files/M1 presentation.pdf' | relative_url }})
+
+
+Internship about STGCN
+======
+At ENS Paris-Saclay (Centre Borelli), I completed an introductory research internship on forecasting regional electricity demand. I assembled a half-hourly dataset for 12 French regions (2014–2018) with consumption and temperature, and built ARIMA and GAM baselines—GAM clearly beat ARIMA (≈2% vs ≈26% MAPE). I then implemented spatio-temporal graph convolutional networks (STGCN) to capture spatial effects, testing graph choices including identity, spatial proximity, correlation, and a learned Laplacian (FGL-3SR).
+
+Here's my report in french [Report (PDF)]({{ '/files/L3 report.pdf' | relative_url }}) and my presentation [Presentation (PDF)]({{ '/files/L3 presentation.pdf' | relative_url }})
 
 Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
