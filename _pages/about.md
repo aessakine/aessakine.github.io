@@ -29,7 +29,7 @@ At the University of Cambridge, I undertook a research internship under the supe
 
 As a side note, based on a link between an existing method and sampling theory, I introduced WIREN (Walsh Implicit Neural Network), which generalizes the approach by using the inverse Fourier transform of Walsh functions as the activation function, improving the accuracy on tasks like CT reconstruction.
 
-Here's the TMLR article [Master’s Report (PDF)](https://arxiv.org/pdf/2411.03688), my master report: [Master’s Report (PDF)]({{ '/files/M1 report.pdf' | relative_url }}) and my master presentation: [Master’s presentation (PDF)]({{ '/files/M1 presentation.pdf' | relative_url }})
+Here's the TMLR paper [Paper (PDF)](https://arxiv.org/pdf/2411.03688), my master report: [Master’s Report (PDF)]({{ '/files/M1 report.pdf' | relative_url }}) and my master presentation: [Master’s presentation (PDF)]({{ '/files/M1 presentation.pdf' | relative_url }})
 
 
 Internship about STGCN
