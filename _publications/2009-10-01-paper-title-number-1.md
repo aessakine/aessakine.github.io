@@ -7,10 +7,10 @@ excerpt: 'Implicit Neural Representations (INRs) have emerged as a paradigm in k
 tation, offering exceptional flexibility and performance across a diverse range of applications.
  INRs leverage multilayer perceptrons (MLPs) to model data as continuous implicit func
 tions, providing critical advantages such as resolution independence, memory efficiency, and
- generalisation beyond discretised data structures. Their ability to solve complex inverse
- problems makes them particularly effective for tasks including audio reconstruction, image
- representation, 3D object reconstruction, and high-dimensional data synthesis. This sur
-vey provides a comprehensive review of state-of-the-art INR methods, introducing a clear
+ generalisation beyond discretised data structures. 
+ Their ability to solve complex inverse problems makes them particularly effective for tasks including audio reconstruction, image
+ representation, 3D object reconstruction, and high-dimensional data synthesis.
+ This survey provides a comprehensive review of state-of-the-art INR methods, introducing a clear
  taxonomy that categorises them into four key areas: activation functions, position encod
 ing, combined strategies, and network structure optimisation. We rigorously analyse their
  critical properties—such as full differentiability, smoothness, compactness, and adaptability
