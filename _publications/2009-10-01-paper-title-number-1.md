@@ -24,7 +24,7 @@ nisms, and improving scalability for complex, high-dimensional data. This survey
  a roadmap for researchers, offering practical guidance for future exploration in the field of
  INRs. We aim to foster new methodologies by outlining promising research directions for
  INRs and applications.'
-date: 2025-02
+date: 2025-02-20
 venue: 'Transactions on Machine Learning Research (02/2025)'
 paperurl: 'https://openreview.net/pdf?id=QTsJXSvAI2'
 bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
