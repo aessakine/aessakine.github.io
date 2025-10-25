@@ -1,6 +1,5 @@
 ---
-title: " Where Do We Stand with Implicit Neural Representations?"
- A Technical and Performance Survey"
+title: " Where Do We Stand with Implicit Neural Representations? A Technical and Performance Survey"
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
@@ -26,7 +25,7 @@ nisms, and improving scalability for complex, high-dimensional data. This survey
  INRs. We aim to foster new methodologies by outlining promising research directions for
  INRs and applications.'
 date: 2025-02
-venue: 'TMLR'
+venue: 'Transactions on Machine Learning Research (02/2025)'
 paperurl: 'https://openreview.net/pdf?id=QTsJXSvAI2'
 bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
 ---
