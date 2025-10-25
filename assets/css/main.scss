@@ -40,4 +40,17 @@
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
+
+   ---
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* Only shrink excerpts on the Publications archive page */
+.pub-archive .archive__item-excerpt {
+  font-size: 0.9rem;   /* try 0.85rem or 14px if you want smaller */
+  line-height: 1.45;
+}
+
 ;
