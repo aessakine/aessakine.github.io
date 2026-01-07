@@ -21,7 +21,7 @@ During my MVA master, I conducted a research internship under the supervision Pr
 
 This line of work is ongoing, with a manuscript in preparation and a planned submission to COLT 2026.
 
-Here's my master report: [Master’s Report (PDF)]({{ '/files/MVA report.pdf' | relative_url }}) and my master presentation: [Master’s presentation (PDF)]({{ '/files/MVA presentation.pdf' | relative_url }})
+Here's the paper draft : [COLT draft (PDF)]({{ '/files/Entropic_BPI_Draft.pdf' | relative_url }})(to be updated with final version),  my master report: [Master’s Report (PDF)]({{ '/files/MVA report.pdf' | relative_url }}) and my master presentation: [Master’s presentation (PDF)]({{ '/files/MVA presentation.pdf' | relative_url }})
 
 Internship about Implicit Neural representation
 ======
